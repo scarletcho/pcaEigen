@@ -4,7 +4,7 @@
 clc;clear;close all;
 
 %% (a)
-% Generate 100¡¿1000 matrix A0 with random numbers from the Gaussian
+% Generate 100x1000 matrix A0 with random numbers from the Gaussian
 % distribution (zero-mean and unit variance) as its elements. [5 pt]
 A0 = zscore(normrnd(0,1,[100,1000]));
 histfit(A0(:)); axis auto
